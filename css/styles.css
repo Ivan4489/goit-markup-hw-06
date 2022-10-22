@@ -591,6 +591,9 @@ img {
 }
 
 .subscription-button {
+  display: flex;
+  align-items: center;
+
   border-radius: 4px;
   padding: 10px 28px;
 
@@ -610,11 +613,6 @@ img {
 .subscription .icon {
   fill: currentColor;
   margin-left: 10px;
-}
-
-.button-container {
-  display: flex;
-  align-items: center;
 }
 
 /* Портфоліо */
