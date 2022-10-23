@@ -823,6 +823,11 @@ img {
   cursor: pointer;
 }
 
+.close-button:hover,
+.close-button:focus {
+  color: var(--accent-color);
+}
+
 .close-icon {
   fill: currentColor;
 }
@@ -844,7 +849,14 @@ img {
 
 .customer-data {
   margin-bottom: 20px;
+}
 
+.terms-options {
+  margin-bottom: 30px;
+}
+
+.terms-options,
+.customer-data {
   list-style: none;
 }
 
@@ -896,7 +908,7 @@ img {
 .form-item input:hover,
 .form-item textarea:hover,
 .form-item input:focus,
-.form-item textarea:focus,{
+.form-item textarea:focus {
   border-color: var(--accent-color);
 }
 
