@@ -851,11 +851,16 @@ img {
   margin-bottom: 20px;
 }
 
-.terms-options {
+.policy-options {
   margin-bottom: 30px;
 }
 
-.terms-options,
+.policy-item {
+  display: flex;
+  align-items: center;
+}
+
+.policy-options,
 .customer-data {
   list-style: none;
 }
@@ -912,7 +917,7 @@ img {
   border-color: var(--accent-color);
 }
 
-.terms {
+.policy {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
@@ -920,7 +925,7 @@ img {
   color: var(--primary-text-color);
 }
 
-.terms .link {
+.policy .link {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
@@ -928,6 +933,25 @@ img {
   color: var(--accent-color);
 }
 
+.form-btn {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 52px;
+
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--header-background-color);
+  border-radius: 4px;
+  border: transparent;
+  cursor: pointer;
+}
 /* background-primary-color: #F5F5F5 */
 /* background-secondary-color: #F5F4FA */
 /* primary-text-color: #757575 */
