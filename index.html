@@ -514,46 +514,40 @@
         </button>
 
         <!-- Форма -->
-        <form>
+        <form class="form">
           <h2 class="form-head">Залиште свої дані, ми вам передзвонимо</h2>
-          <ul>
-            <li class="name">
-              <label>
-                Ім'я
-                <input type="text" name="name" />
-              </label>
+          <ul class="customer-data">
+            <li class="form-item">
+              <label for="name">Ім'я</label>
+              <input type="text" name="name" id="name" />
             </li>
-
-            <li class="tel">
-              <label>
-                Телефон
-                <input type="tel" name="telephone" />
-              </label>
+            <li class="form-item">
+              <label for="tel">Телефон</label>
+              <input type="tel" name="tel" id="tel" />
             </li>
-            <li class="email">
-              <label>
-                Пошта
-                <input type="email" name="email" />
-              </label>
+            <li class="form-item">
+              <label for="mail">Пошта</label>
+              <input type="email" name="mail" id="mail" />
             </li>
-            <li class="comment">
-              <label>
-                Коментар
-                <textarea
-                  name="feedback"
-                  rows="5"
-                  placeholder="Введіть текст"
-                ></textarea>
-              </label>
-            </li>
-            <li class="terms">
-              <label>
-                Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a>
-                <input type="checkbox" name="" />
-              </label>
+            <li class="form-item">
+              <label for="feedback"> Коментар </label>
+              <textarea
+                name="feedback"
+                rows=""
+                placeholder="Введіть текст"
+                id="feedback"
+              ></textarea>
             </li>
           </ul>
-          <button type="submit">Відправити</button>
+
+            <input type="checkbox" name="terms" id="terms" />
+            <label class="terms" for="terms">
+              Погоджуюся з розсилкою та приймаю <a class="link" href="">Умови договору</a>
+            </label>
+            <br/>
+            <button type="submit">Відправити</button>
+
+          
         </form>
       </div>
     </div>
