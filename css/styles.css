@@ -860,9 +860,10 @@ img {
 .checkbox:checked + .icon {
   background-color: var(--accent-color);
   background-image: url(../images/vector-compressed/checked.svg);
-  background-origin: border-box;
-  background-position: 50% 50%;
+  /* background-origin: border-box; */
+  background-position: center;
   border-color: transparent;
+  background-repeat: no-repeat;
 }
 
 .policy {
